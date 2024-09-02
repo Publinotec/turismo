@@ -1,0 +1,57 @@
+.mosaico{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    padding: 0% 2%;
+    box-sizing: border-box;
+    
+}
+
+.caja{
+    flex: 1;
+    overflow: hidden;
+    margin: 5px;
+    box-shadow: 0 20px 30px rgba(80, 75, 75, 0.432);
+    line-height: 0;
+    transition: all 600ms;
+    cursor: zoom-in;
+}
+.caja > img{
+    width: 150%;
+    height: calc(90% - 20vh);
+    object-fit: cover;
+    transition: all 300ms;
+}
+.caja > span{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: beige;
+    display: block;
+    text-align: center;
+    height: 20vh;
+    line-height: 2.6;
+}
+
+.caja:hover{
+    flex: 80%;
+}
+
+.caja:hover > img{
+    width: 90%;
+    height: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
